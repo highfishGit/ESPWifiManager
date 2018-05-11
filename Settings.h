@@ -40,14 +40,14 @@
 const int WEBSERVER_PORT = 80; // The port you can access this device on over HTTP
 const boolean WEBSERVER_ENABLED = true;  // Device will provide a web interface via http://[ip]:[port]/
 char* www_username = "admin";  // User account for the Web Interface
-char* www_password = "DimP:1975";  // Password for the Web Interface
+char* www_password = "password";  // Password for the Web Interface
 float UtcOffset = +2; // Hour offset from GMT for your timezone
 int minutesBetweenDataRefresh = 60;
 
 
 //default custom static IP for desired network
-char static_ip[16] = "192.168.178.196";
-char static_gw[16] = "192.168.178.4";
+char static_ip[16] = "192.168.xxx.xxx";
+char static_gw[16] = "192.168.xxx.xxx";
 char static_sn[16] = "255.255.255.0";
 
  
