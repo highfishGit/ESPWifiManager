@@ -10,6 +10,9 @@ inspired by :
 
 #############################################################################
 
+This works with the ESP8266 Arduino platform with a recent stable release(2.0.0 or newer) 
+https://github.com/esp8266/Arduino
+
 
 - suitable for all 4MB ESP8266 devices, like the NodeMCU, ESP8266xx ....
 - WifiManager functionality for first use of ESP device
