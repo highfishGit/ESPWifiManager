@@ -372,15 +372,6 @@ void setup() {
   // Uncomment for testing wifi manager
   //wifiManager.resetSettings();
 
-
-//set static for device after succesful connect to desired network
-  IPAddress _ip,_gw,_sn;
-  _ip.fromString(static_ip);
-  _gw.fromString(static_gw);
-  _sn.fromString(static_sn);
-  wifiManager.setSTAStaticIPConfig(_ip, _gw, _sn);
-
-
   //add all your parameters here
   wifiManager.addParameter(&custom_mqtt_server);
   wifiManager.addParameter(&custom_mqtt_port);
