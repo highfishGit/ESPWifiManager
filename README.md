@@ -18,7 +18,9 @@ inspired by :
   -Wifi connect
   -mqtt connect
   -AP shutdown
+  
 #############################################################################
+
 EXTENDED:
  after successfull connect:
 - start Webserver on Port 80
@@ -35,4 +37,4 @@ ToDo/Wishlist:
  - OLED integration
 
  #############################################################################
- 
+ (c) 2018 by highfishGit
