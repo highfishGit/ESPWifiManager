@@ -8,8 +8,8 @@ based on:
 #WifiManager by tzapu (https://github.com/tzapu/WiFiManager)
 
 inspired by :
-- the config and server handling from tasmota (sonoff)
-- marquee-scroller
+- the config and server handling from tasmota (sonoff) (https://github.com/arendst/Sonoff-Tasmota)
+- marquee-scroller (https://github.com/Qrome/marquee-scroller)
 
 #############################################################################
 
