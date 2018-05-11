@@ -42,7 +42,7 @@ boolean displayOn = true;
 
 
 //mqtt
-const char* mqtt_server_own = "192.168.178.56";
+const char* mqtt_server_own = "192.168.178.xxx";
 char mqtt_server[40];
 char mqtt_port[6] = "1883";
 char mqtt_user[40];
